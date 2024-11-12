@@ -46,7 +46,7 @@ jobs:
 
   integration-tests:
     name: Integration tests
-    needs: build_extensions
+    needs: build_extension
     runs-on: ubuntu-latest
 
     env:
