@@ -29,6 +29,72 @@ To remove the package, execute:
 pip uninstall jupyterlab_ws_chat
 ```
 
+## Using the chat
+
+The chat UI is composed of a list of messages and an input to send new messages.
+
+A message can be edited or deleted by its author, using a dedicated toolbar in the
+message.
+
+### Open the chat
+
+The chat can be opened from the left panel
+<img src=https://raw.githubusercontent.com/jupyterlab/jupyter-chat/a66480412b4cb8c7b2c415afca06b24c98dbf55f/packages/jupyter-chat/style/icons/chat.svg width=24px>.
+
+### Notifications and navigation
+
+If enabled in [settings](#chat-settings), new unread messages generate a notification.
+
+A down arrow in the messages list allow to navigate to the last message. This button is
+highlighted if some new messages are unread.
+
+(code-toolbar)=
+
+### Code toolbar
+
+When code is inserted in a message, a toolbar is displayed under the code section (the
+options must be set up from the [settings](#chat-settings)).
+
+From this toolbar, the code can be copied to the clipboard:
+<img src=https://raw.githubusercontent.com/jupyterlab/jupyter-chat/refs/heads/main/docs/source/_static/images/code-toolbar-copy.png width=24px>
+
+If a notebook is opened and visible (and has an active cell), other actions are
+available:
+
+- copy the code to a new cell above the active one:
+<img src=https://raw.githubusercontent.com/jupyterlab/jupyter-chat/refs/heads/main/docs/source/_static/images/code-toolbar-above.png width=24px>
+- copy the the code to a new cell below the active one:
+<img src=https://raw.githubusercontent.com/jupyterlab/jupyter-chat/refs/heads/main/docs/source/_static/images/code-toolbar-below.png width=24px>
+- replace the content of the active cell with the code:
+<img src=https://raw.githubusercontent.com/jupyterlab/jupyter-chat/refs/heads/main/docs/source/_static/images/code-toolbar-replace.png width=24px>
+
+### Chat settings
+
+Some jupyterlab settings are available for the chats in the setting panel
+(menu `Settings->Settings Editor`), with the entry *Chat*.
+
+These settings includes:
+
+- **sendWithShiftEnter**
+
+  Whether to send a message using Shift-Enter instead of Enter.\
+  Default: false
+
+- **stackMessages**
+
+  Whether to stack consecutive messages from same user.\
+  Default: true
+
+- **unreadNotifications**
+
+  Whether to enable or not the notifications on unread messages.\
+  Default: true
+
+- **enableCodeToolbar**
+
+  Whether to enable or not the code toolbar.\
+  Default: true
+
 ## Contributing
 
 ### Development install
