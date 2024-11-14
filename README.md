@@ -39,7 +39,7 @@ message.
 ### Open the chat
 
 The chat can be opened from the left panel
-<img src=https://raw.githubusercontent.com/jupyterlab/jupyter-chat/a66480412b4cb8c7b2c415afca06b24c98dbf55f/packages/jupyter-chat/style/icons/chat.svg width=24px>.
+<img src=https://raw.githubusercontent.com/jupyterlab/jupyter-chat/a66480412b4cb8c7b2c415afca06b24c98dbf55f/packages/jupyter-chat/style/icons/chat.svg width=24px style='vertical-align: middle;'>.
 
 ### Notifications and navigation
 
@@ -56,17 +56,17 @@ When code is inserted in a message, a toolbar is displayed under the code sectio
 options must be set up from the [settings](#chat-settings)).
 
 From this toolbar, the code can be copied to the clipboard:
-<img src=https://raw.githubusercontent.com/jupyterlab/jupyter-chat/refs/heads/main/docs/source/_static/images/code-toolbar-copy.png width=24px>
+<img src=https://raw.githubusercontent.com/jupyterlab/jupyter-chat/refs/heads/main/docs/source/_static/images/code-toolbar-copy.png width=24px style='vertical-align: middle;'>
 
 If a notebook is opened and visible (and has an active cell), other actions are
 available:
 
 - copy the code to a new cell above the active one:
-<img src=https://raw.githubusercontent.com/jupyterlab/jupyter-chat/refs/heads/main/docs/source/_static/images/code-toolbar-above.png width=24px>
+  <img src=https://raw.githubusercontent.com/jupyterlab/jupyter-chat/refs/heads/main/docs/source/_static/images/code-toolbar-above.png width=24px style='vertical-align: middle;'>
 - copy the the code to a new cell below the active one:
-<img src=https://raw.githubusercontent.com/jupyterlab/jupyter-chat/refs/heads/main/docs/source/_static/images/code-toolbar-below.png width=24px>
+  <img src=https://raw.githubusercontent.com/jupyterlab/jupyter-chat/refs/heads/main/docs/source/_static/images/code-toolbar-below.png width=24px style='vertical-align: middle;'>
 - replace the content of the active cell with the code:
-<img src=https://raw.githubusercontent.com/jupyterlab/jupyter-chat/refs/heads/main/docs/source/_static/images/code-toolbar-replace.png width=24px>
+  <img src=https://raw.githubusercontent.com/jupyterlab/jupyter-chat/refs/heads/main/docs/source/_static/images/code-toolbar-replace.png width=24px style='vertical-align: middle;'>
 
 ### Chat settings
 
