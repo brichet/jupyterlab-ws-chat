@@ -1,7 +1,7 @@
 # jupyterlab_ws_chat
 
 [![Github Actions Status](https://github.com/brichet/jupyterlab-ws-chat/workflows/Build/badge.svg)](https://github.com/brichet/jupyterlab-ws-chat/actions/workflows/build.yml)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jupyterlab/jupyter-chat/main?urlpath=lab)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/brichet/jupyterlab-ws-chat/HEAD?urlpath=lab)
 
 A chat extension for Jupyterlab, based on websocket for exchanging messages.
 
