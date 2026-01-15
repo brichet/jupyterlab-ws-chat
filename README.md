@@ -6,7 +6,7 @@
 A chat extension for Jupyterlab, based on websocket for exchanging messages.
 
 This package is composed of a Python package named `jupyterlab_ws_chat`
-for the server side and a NPM package named `jupyterlab-ws-chat`
+for the server side and a NPM package named `jupyterlab-ws-chat-extension`
 
 ![screenshot](screenshot.png 'WS chat extension')
 
@@ -145,7 +145,7 @@ pip uninstall jupyterlab_ws_chat
 
 In development mode, you will also need to remove the symlink created by `jupyter labextension develop`
 command. To find its location, you can run `jupyter labextension list` to figure out where the `labextensions`
-folder is located. Then you can remove the symlink named `jupyterlab-ws-chat` within that folder.
+folder is located. Then you can remove the symlink named `jupyterlab-ws-chat-extension` within that folder.
 
 ### Testing the package
 

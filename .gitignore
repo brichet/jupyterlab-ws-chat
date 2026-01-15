@@ -11,7 +11,7 @@ node_modules/
 labextension
 
 # Version file is handled by hatchling
-python/**/_version.py
+jupyterlab_ws_chat/_version.py
 
 # jest test reports
 junit.xml
