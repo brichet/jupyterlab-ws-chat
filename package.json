@@ -1,5 +1,5 @@
 {
-  "name": "jupyterlab-ws-chat",
+  "name": "jupyterlab-ws-chat-extension",
   "version": "0.5.0",
   "description": "A chat extension for Jupyterlab, based on websocket",
   "keywords": [
